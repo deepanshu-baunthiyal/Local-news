@@ -129,10 +129,25 @@ body {
   padding-left: 1px;
 }
 
+.move-container{
+  display: flex;
+  height:40px;
+}
+.next-news{
+  margin-left: 470px;
+  height:20px;
+  width:60px;
+}
+.previous-news{
+  height:20px;
+  width:90px;
+}
+
 .top-news{
   position: relative;
-  min-width:0;
+  min-width: 0px;
 }
+
 .top-news img {
   width: 109.7%;
   height: 412px;
@@ -321,7 +336,7 @@ p {
 }
 
 /* Mobile screens */
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   nav {
     gap: 15px;
     padding: 16px;
@@ -335,7 +350,7 @@ p {
   nav a {
     font-size: 14px;
   }
-} */
+}
 
 .breaking-news {
   display: flex;
