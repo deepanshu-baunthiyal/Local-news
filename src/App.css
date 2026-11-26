@@ -558,6 +558,10 @@ p {
   line-height: 1.5;
 }
 
+.post-details h4:hover{
+  color:rgb(174, 0, 0) ;
+}
+
 .post-details p {
   font-size: 14px;
   color: #777;
