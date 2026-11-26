@@ -552,7 +552,7 @@ p {
   flex-direction: column;}
 
 .post-details h4 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
   line-height: 1.5;
@@ -564,6 +564,23 @@ p {
   margin: 5px 0;
 }
 
+/* popular post cards */
+.popular-post-details h4{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.popular-post-details h4:hover{
+  color:rgb(174, 0, 0);
+}
+
+.popular-post-details p{
+  font-size: 12px;
+  color: #777;
+  margin: 5px 0;
+}
 
 .news-sidebar {
   background-color: white;
