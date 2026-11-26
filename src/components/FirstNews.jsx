@@ -7,7 +7,7 @@ function FirstNews({firstnews}){
         <img src={firstnews[currentIndex].image} alt={firstnews[currentIndex].title} />
      
         <div className="news-image">
-           <div className="move-container">
+            <div className="move-container">
             <button className="previous-news" onClick={()=>setCurrentIndex(currentIndex -1)}>&lt;</button>
             <button className="next-news" onClick={()=>setCurrentIndex(currentIndex +1)}>&gt;</button>
         </div>
