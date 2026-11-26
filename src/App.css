@@ -130,17 +130,38 @@ body {
 }
 
 .move-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  height:40px;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+
 }
-.next-news{
-  margin-left: 470px;
-  height:20px;
-  width:60px;
+/* .next-news{
+  margin-left: 400px;
+  height:30px;
+  width:40px;
+  font-size:15px;
 }
 .previous-news{
-  height:20px;
-  width:90px;
+  height:30px;
+  width:40px;
+  font-size:15px;
+} */
+
+.next-news {
+  height: 30px;
+  width: 40px;
+  font-size: 15px;
+}
+
+.previous-news {
+  height: 30px;
+  width: 40px;
+  font-size: 15px;
 }
 
 .top-news{
